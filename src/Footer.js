@@ -1,15 +1,12 @@
-import React  from "react";
-
-
-
+import React from "react";
 
 const Footer = () => {
-    return (
+  return (
+    <div class="footer-copyright text-center py-4 p-3 mb-2 bg-dark text-white">
+      .bg-dark>© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> myWEBSITE</a>
+    </div>
+  );
+};
 
-        <div class="footer-copyright text-center py-3 p-3 mb-2 bg-dark text-white">.bg-dark>© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> myWEBSITE</a>
-  </div>
-        );
-    };
-  
-  export default Footer;
+export default Footer;
