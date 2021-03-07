@@ -6,7 +6,7 @@ import Section1 from "./Section1";
 function App() {
   return (
     <div>
-      <Navbar />
+      <Navbar title = "Start React"/>
       <Section1 />
       <Cards />
       <Footer />
