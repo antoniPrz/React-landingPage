@@ -1,7 +1,13 @@
 import React from "react";
 
 const Navbar = () => {
-  return (
+  return (<>
+    <div>
+
+      <h1>
+        Start
+      </h1>
+    </div>
     <div>
       <ul className="nav bg-dark text-white justify-content-end px-4">
         <li className="nav-item">
@@ -26,6 +32,7 @@ const Navbar = () => {
         </li>
       </ul>
     </div>
+    </> 
   );
 };
 
